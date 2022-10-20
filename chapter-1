@@ -1,0 +1,31 @@
+・JavaScript データ型３つ。
+１数値型
+let number1 = 123
+let number2 = 1.5
+
+２文字列型
+let string = 'おはよう'
+console.log(string.slice(１、３)) // はよ
+console.log(string.length)       // 4
+
+３真偽型
+let boolean = true
+
+・数値に値を格納するときの用語は？
+代入
+ver name = "John"
+console.log(name)
+ =>John
+ 
+・ディレクトリとは？
+フォルダーと同じ意味。
+
+・絶対パスとは？
+ルートディレクトリからフォルダーまたは、ファイルまでのパスを書いたもの。
+// 絶対パス
+/user/username/workspace/HTML/style/style.css
+
+・相対パスとは？
+カレントディレクトリから目的のフォルダーまたは、ファイルまでのパスを書いたもの。
+// 相対パス(HTMLをカレントディレクトリーとした場合)
+./style/style.css
