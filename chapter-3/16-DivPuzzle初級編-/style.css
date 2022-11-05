@@ -1,41 +1,43 @@
 @charset "UTF-8"
 
+clear::after {
+content: "";
+display: block;
+clear: both;
+}
+
+clearfix {
+display: block;
+}
+
 body {
-  margin: 0;
+width: 400px;
+height: 450px;
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+.red {
+width: 400px;
+height: 100px;
+background-color: #ff0000;
 }
 
-.clearfix {
-  display: block;
+.green {
+width: 150px;
+height: 250px;
+background-color: #00ff1e;
+float: left;
 }
 
-.red--box {
-  width: 400px;
-  height: 100px;
-  background: #ff0000;
+.blue {
+width: 250px;
+height: 250px;
+background-color: #3300ff;
+float: left;
 }
 
-.green--box {
-  width: 150px;
-  height: 250px;
-  background: #00ff1e;
-  float: left;
-}
-
-.blue--box {
-  width: 250px;
-  height: 250px;
-  background: #3300ff;
-  float: left;
-}
-
-.yellow--box {
-  width: 400px;
-  height: 100px;
-  background: #ffe600;
+.yellow {
+width: 400px;
+height: 100px;
+background-color: #ffe600;
+clear: both;
 }
